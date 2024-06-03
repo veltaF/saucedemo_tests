@@ -11,7 +11,7 @@ import data from '../data/testdata';
 import { 
     LOGIN_BUTTON,
     PRODUCTS_PAGE_HEADER,
-    SCHOPPING_CART_LINK,
+    SHOPPING_CART_LINK,
     CHECKOUT_BUTTON,
     CONTINUE_BUTTON,
     FINISH_BUTTON,
@@ -47,7 +47,7 @@ test('Customer purchases products  @basic', async () => {
     });
 
     await test.step("And proceeds to checkout the purchase", async () => {
-        await page.locator(SCHOPPING_CART_LINK).click();
+        await page.locator(SHOPPING_CART_LINK).click();
         await verifyProductIsOnPage(page, "Sauce Labs Backpack")
         await verifyProductIsOnPage(page, "Test.allTheThings() T-Shirt (Red)")
         await verifyProductIsOnPage(page, "Sauce Labs Bolt T-Shirt")

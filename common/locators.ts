@@ -11,7 +11,7 @@ export const CART_BADGE = '.shopping_cart_badge[data-test="shopping-cart-badge"]
 
 //products page
 export const PRODUCTS_PAGE_HEADER = 'text=Products';
-export const SCHOPPING_CART_LINK = '#shopping_cart_container > a';
+export const SHOPPING_CART_LINK = '#shopping_cart_container > a';
 export const PRODUCT_SORT = '.product_sort_container';
 export const ACTIVE_OPTION = 'span.active_option:has-text("Price (low to high)")';
 export const INVENTORY_ITEM = '.inventory_item[data-test="inventory-item"]';
