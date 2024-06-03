@@ -1,0 +1,17 @@
+{
+  "name": "saucedemo_tests",
+  "version": "1.0.0",
+  "description": "This is test automation repository for saucelab demo project",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.44.1",
+    "@types/node": "^20.14.0"
+  }
+}
